@@ -1,0 +1,14 @@
+print("Please log into your accoung")
+
+print()
+username = input("Username > ")
+password = input("Password > ")
+
+if username == "jt" and password == "heypal":
+ print("Welcome jt!")
+elif username == "suzanne" and password == "Su74nne":
+ print("Hey there Suzanne!")
+elif username == "paul" and password == "yoyo":
+ print("Hey there Paul")
+else:
+ print("Go away!")
