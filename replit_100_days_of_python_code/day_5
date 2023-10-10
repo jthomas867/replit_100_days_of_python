@@ -1,0 +1,29 @@
+print("Which superhero character are you?")
+print()
+print("Answer these questions and let's find out.")
+print()
+print("Please use Y or N for yes and no.")
+
+
+spiderMan = input("Do you like hanging around?  ")
+
+if spiderMan == "Y":
+  print("You must be Spider Man.")
+
+flash = input("Do you run really really fast?  ")
+
+if flash == "Y":
+  print("You are The Flash.")
+
+superMan = input("Do you wear a red cape?  ")
+
+if superMan == "Y":
+  print("You must be superman")
+
+batMan = input("Is your favorite animal the bat?")
+
+if batMan == "Y":
+  print("You have to be Bat Man!")
+
+else:
+  print("That's strange, I guess we will never know...")
